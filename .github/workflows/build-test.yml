@@ -19,4 +19,4 @@ jobs:
       uses: NuGet/setup-nuget@v1.0.2
 
     - name: restore nuget packages
-      uses: nuget restore
+      run: nuget restore
