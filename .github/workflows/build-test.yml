@@ -16,7 +16,7 @@ jobs:
       uses: microsoft/setup-msbuild@v1.0.1
 
     - name: setup nuget
-      uses: microsoft/setup-nuget@v1.0.2
+      uses: NuGet/setup-nuget@v1.0.2
 
     - name: restore nuget packages
       uses: nuget restore
