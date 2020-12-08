@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@v2 
     
     - name: setup msbuild
-      uses: microsoft/setup-msbuild@v1.0.1
+      uses: microsoft/setup-msbuild@v1.0.2
       with:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 
