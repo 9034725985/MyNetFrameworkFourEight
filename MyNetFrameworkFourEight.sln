@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNetFrameworkFourEight", "MyNetFrameworkFourEight\MyNetFrameworkFourEight.csproj", "{19C094EE-2E7A-4FC9-8A4C-445DD39B4687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNetFrameworkFourEight.Tests", "MyNetFrameworkFourEight.Tests\MyNetFrameworkFourEight.Tests.csproj", "{A8A1FB2A-555E-48CD-9B47-D390DF38C01A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19C094EE-2E7A-4FC9-8A4C-445DD39B4687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C094EE-2E7A-4FC9-8A4C-445DD39B4687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C094EE-2E7A-4FC9-8A4C-445DD39B4687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C094EE-2E7A-4FC9-8A4C-445DD39B4687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A1FB2A-555E-48CD-9B47-D390DF38C01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A1FB2A-555E-48CD-9B47-D390DF38C01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A1FB2A-555E-48CD-9B47-D390DF38C01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A1FB2A-555E-48CD-9B47-D390DF38C01A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0C3A1AC-004D-4CF3-83D7-E60D0E91E3F4}
+	EndGlobalSection
+EndGlobal
