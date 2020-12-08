@@ -24,3 +24,6 @@ jobs:
 
     - name: restore nuget packages
       run: nuget restore
+
+    - name: build application
+      run: msbuild MyNetFrameworkFourEight.sln /p:Configuration=Release
