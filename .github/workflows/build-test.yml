@@ -1,0 +1,22 @@
+name: Build Legacy Application
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: [windows-latest]
+    steps:
+    - uses: actions/checkout@v2 
+    
+    - name: setup msbuild
+      uses: microsoft/setup-msbuild
+
+    - name: setup nuget
+      uses: microsoft/@setup-nuget
+
+    - name: restore nuget packages
+      uses: nuget restore
