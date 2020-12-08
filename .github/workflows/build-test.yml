@@ -22,3 +22,5 @@ jobs:
 
     - name: restore nuget packages
       run: nuget restore
+      with:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: true
